@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -12,7 +13,9 @@ const Hero = () => {
         {/* Left section with image */}
         <div className="w-full lg:w-1/2 flex justify-center items-center">
           {/* Image with blue blurred border */}
-          <img
+          <Image
+          width={400}
+          height={12}
             src="/ismail.png"  // Make sure the path to your image is correct
             alt="Ismail"
             className="w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] rounded-full object-none"
