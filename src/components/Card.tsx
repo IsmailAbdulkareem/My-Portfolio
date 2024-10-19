@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react'
-import { DiVim } from 'react-icons/di';
 
 interface propsType {
     title:string;
